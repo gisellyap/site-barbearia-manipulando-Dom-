@@ -20,16 +20,36 @@ function initTabMenu() {
 
 initTabMenu();
 
-const linksInternos= document.querySelectorAll('.js-linksMenu a[href^="#"]');
+// const linksInternos= document.querySelectorAll('.js-linksMenu a[href^="#"]');
 
-function scrollToSection(event){
-  event.preventdefault();
+// function scrollToSection(event){
+//   event.preventDefault();
 
-  const href=event.currentTarget.getAttribute('href');
-  const section=document.querySelector(href);
-  console.log(section);
+//   const href=event.currentTarget.getAttribute('href');
+//   const section=document.querySelectorAll('.sections');
+//   console.log(section);
+
+// }
+
+// linksInternos.forEach((link)=>{
+//   link.addEventListener('click', scrollToSection);
+// });
+
+function initFac(){
+
+
+const listaDescricao = document.querySelectorAll('.js-faq dt');
+listaDescricao[0].classList.add('ativo');
+listaDescricao[0].nextElementSibling.classList.add('ativo');
+
+function activeLista(){
+  this.classList.toggle('ativo');
+  this.nextElementSibling.classList.toggle('ativo')
 }
 
-linksInternos.forEach((link)=>{
-  link.addEventListener('click', scrollToSection);
+listaDescricao.forEach((item)=>{
+  item.addEventListener("click", activeLista );
 });
+}
+initFac();
+
