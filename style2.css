@@ -1,0 +1,106 @@
+body{
+    margin: 18px;
+    background: rgb(72, 72, 72);
+    color: black;
+    font-family: 'IBM Plex Mono', monospace;
+}
+.section-agend{
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 1px solid black;
+    background: rgb(147, 144, 144);
+    box-shadow: 3px 2px 3px 2px rgba(0, 0, 0, 0.563)
+}
+.formulario-agend{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.titulo-agend{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+hr{
+    height: 2px;
+    background: teal;
+    border: 0;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.labelNome{
+   font-size: 20px; 
+}
+.caixa-nome{
+    display: flex;
+}
+.caixa-nome input{
+    width: 250px;
+    height: 25px;
+    margin-bottom: 15px;
+    margin-bottom: 35px;
+}
+.caixa-email label{
+    display: block;
+    font-size: 20px;
+}
+.caixa-email input{
+    width: 250px;
+    height: 25px;
+    margin-bottom: 35px;
+}
+.parag{
+    font-size: 18px;
+    font-weight: bold;
+
+}
+.caixa-data label{
+    display: block;
+    font-size: 20px;
+}
+.caixa-data input{
+    width: 250px;
+    height: 25px;
+    font-size: 15px;
+    margin-bottom: 35px;
+}
+.caixa-tel label{
+    display: block;
+    font-size: 20px;
+}
+.caixa-tel input{
+    width: 250px;
+    height: 25px;
+    font-size: 15px;
+    margin-bottom: 35px;
+}
+.caixa-tel button{
+    height: 32px;
+    font-size: 15px;
+    margin-bottom: 35px;
+    background: teal;
+    border: 1px solid black;
+    color: white;
+}
+.footer-servico{
+    font-size: 18px;
+}
+.footer-servico p{
+    font-weight: bold;
+}
+.botao-enviar{
+    text-align: center;
+    align-items: center;
+    
+}
+.botao-enviar button{
+    background: teal;
+    border: 1px solid black;
+    box-shadow: 2px 2px 1px 0px rgba(0, 0, 0, 0.386);
+    width: 500px;
+    height: 35px;
+    margin: 20px;
+    color: white;
+    
+}
